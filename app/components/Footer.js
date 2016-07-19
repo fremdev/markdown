@@ -4,7 +4,7 @@ require('../styles/footer.scss');
 const Footer = React.createClass({
   render: function() {
     return (
-      <div className='footer'>Designed and built by <a href="https://twitter.com/fremdev">@fremdev</a> • 2016</div>
+      <div className='footer'>Designed and built by <a href="https://twitter.com/fremdev" target="_blank">@fremdev</a> • 2016</div>
     );
   }
 });
