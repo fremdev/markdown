@@ -1,9 +1,11 @@
 import React from 'react';
+import marked from 'marked';
 
 const Previewer = React.createClass({
   render: function() {
+    var output = marked(this.props.markdown);
     return (
-      <div>Placeholder for Markup Previewer</div>
+      <div dangerouslySetInnerHTML={{__html: output}}></div>
     )
   }
 });

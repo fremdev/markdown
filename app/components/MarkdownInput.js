@@ -3,8 +3,11 @@ import React from 'react';
 const MarkdownInput = React.createClass({
   render: function() {
     return (
-      <textarea></textarea>
-    )
+      <textarea
+        value={this.props.markdown}
+        onChange={this.props.onChange}>
+      </textarea>
+    );
   }
 });
 
