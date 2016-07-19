@@ -1,4 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans|Dosis:400,700);
+
 .previewer {
-  flex: 1 1 auto;
-  padding-left: 20px;
+  flex: 1 1 400px;
+  padding: 0 20px;
+  background: #ffdb74;
+  font-family: 'Dosis';
+    h1, h2, h3, h4, h5, h6 {
+      color: #252010;
+      font-family: 'Expletus Sans';
+    }
+
+    h1 {
+    	font-size: 48px;
+    	font-weight: 400;
+    	line-height: 60px;
+    	margin-bottom: 48px;
+    	letter-spacing: -1px;
+    	text-transform: none;
+    }
+
+    p {
+    	color: #40371D;
+    	font-size: 22px;
+    	font-weight: 400;
+    	line-height: 36px;
+    	margin-bottom: 36px;
+    }
+
+    a {
+    	color: #5cd8b6;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    blockquote {
+      font-style: italic;
+    }
 }
