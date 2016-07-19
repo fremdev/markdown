@@ -2,6 +2,8 @@ import React from 'react';
 import MarkdownInput from './MarkdownInput';
 import Previewer from './Previewer';
 
+require('../styles/app.scss');
+
 const App = React.createClass({
   getInitialState: function() {
     return {markdown: 'Input your __markdown__ here please'};
@@ -11,7 +13,7 @@ const App = React.createClass({
   },
   render: function() {
     return (
-      <div>
+      <div className="container">
         <MarkdownInput markdown={this.state.markdown} onChange={this.handleChange} />
         <Previewer markdown={this.state.markdown}/>
       </div>
